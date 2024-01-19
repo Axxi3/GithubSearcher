@@ -26,7 +26,7 @@ const fetchData = () => {
                         <h1>${data.login}</h1>
                         <p>${data.bio}</p>
                         <div class="location">
-                            <img src="./map.png" alt="">
+                            <img src="map.png" alt="">
                             <p>${data.location == null ? "No information available" : data.location}</p>
                         </div>
                         <p>Twitter: ${data.twitter == undefined ? "Not available" : data.twitter}</p>
